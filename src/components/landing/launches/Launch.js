@@ -8,6 +8,7 @@ function Launch(props) {
         <div id="launch_container">
             <h2 onClick={() => toggleShow(!show)}>{props.name}</h2>
             {show == true ? <span><p>{props.details}</p>
+            <p>Date: {props.net.slice(0, 10)}</p>
             <p>Mission Type: {props.missionType}</p>
             <p>Pad Name: {props.padName}</p>
             <p>Pad Location: {props.location}</p></span> : <span></span>}

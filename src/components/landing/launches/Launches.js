@@ -39,6 +39,7 @@ class Launches extends React.Component {
                             key={index}
                             name={launch.name} 
                             details={launch.mission ? launch.mission.description : ''}
+                            net={launch.net}
                             missionType={launch.mission ? launch.mission.type : ''}
                             padName={launch.pad.name}
                             location={launch.pad.location.name}
