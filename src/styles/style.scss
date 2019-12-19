@@ -8,10 +8,50 @@ body {
 #container {
   text-align: center;
   padding: 4rem;
-
+  font-family: 'Junge', serif;
   img {
     margin-top: 4rem;
     width: 50rem;
     max-width: 80%;
+  }
+}
+
+#launch_container {
+  text-align: left;
+  padding: 1.5rem;
+  max-width: 67%;
+
+  h2 {
+    margin-top: 1rem;
+    width: 50rem;
+    max-width: 80%;
+  }
+
+  h2:hover {
+    cursor: pointer;
+    cursor: hand;
+    color: #47D7AC;
+    font-size: 152%;
+  }
+}
+
+#header_container {
+  text-align: left;
+  padding: 2rem 0 4rem 0;
+  max-width: 67%;
+
+  header {
+    color: #3393FF;
+    font-size: 4rem;
+  }
+}
+
+#footer_container {
+  text-align: center;
+  padding: 12rem 0 0 0;
+
+  footer {
+    color: #47D7AC;
+    font-weight: bold;
   }
 }

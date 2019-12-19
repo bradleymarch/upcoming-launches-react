@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles/style.scss";
 import logo from "./images/medoptic-logo.png";
+import Landing from './components/landing/Landing';
 
 const App = () => (
   <div id="container">
-    <h1>Immertec App Boilerplate</h1>
-    <img src={logo} />
+    <Landing />
   </div>
 );
 
